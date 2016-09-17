@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/09/2016, 11:08:46 AM
+    Author     : vacax
+*/
+
+
+/*
+
+Regla:
+
+selector { atributos1; atributosn;  }
+
+Atributo: nombre : [valor, valor, valor.....]
+
+*/
+
+/* Selector a una etiqueta*/
+h1{
+    font-weight: normal;
+    color: blue;
+}
+
+/* Selector a varias etiquetas*/
+h2,h3{
+    text-transform: lowercase;
+}
+
+#miParrafo{
+    background-color: aqua;
+    font-size: larger;
+    text-align: right;
+}
+
+.MiClase{
+    background-color: #FF3eFd;
+    text-align: center
+}
+
+.otraClase{
+    text-decoration: line-through;
+}
+
+#otroParrafo{
+    font-size: 45px;
+}
+
+/*
+Dependecia de etiquetas.
+*/
+p span{
+    color: rgb(0,0, 255);
+}
+
+
+a.MiClase{
+    background-color: white;
+    font-size: small;
+    color: chartreuse;
+}
+
+body{
+    background-image: url("../img/imagen1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
