@@ -1,0 +1,7 @@
+#Representa archivo para excluir archivos..
+
+./nbproject/private
+
+#excluyendo archivos por su extensión.
+*.db
+*.class

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Conceptos HTML5 y CSS</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="css/miCss.css" type="text/css" media="screen"/>
+    </head>
+    <body> 
+        <!--Creando el ancla-->
+        <a name="miancla"></a>
+        <h1>Conceptos HTML5 y CSS</h1>
+        <br/>
+
+        <h1>Encabezados</h1>
+        <h1>Encabezado h1</h1>
+        <h2>Encabezado h2</h2>
+        <h3>Encabezado h3</h3>
+        <h4>Encabezado h4</h4>
+        <h5>Encabezado h5</h5>
+        <h6>Encabezado h6</h6>
+
+        <br/>
+        <h1>Etiquetas neutrales</h1>
+        <!--Comentario en HTML, no se visualiza pero se manda al cliente--> 
+        <!-- Para mostrar el signo de < y > debo utilizar el formato de escape--> 
+        <span> &LT;span&GT;</span>
+        <div>&LT;div&GT;</div>
+
+        <br/>
+        <h1>Lista no ordenada </h1>
+        <ul>
+            <li>Elemento 1</li>  
+            <li>Elemento 2</li>  
+            <li>Elemento 3</li>  
+            <li>Elemento 4</li>  
+        </ul>
+
+        <h1>Lista ordenada </h1>
+        <ol >
+            <li>Elemento 1</li>  
+            <li>Elemento 2</li>  
+            <li>Elemento 3</li>  
+            <li>Elemento 4</li>  
+        </ol>
+
+        <h1>Lista ordenada compleja</h1>
+        <!--Inicia de atrás para delante e inicia en 4-->
+        <ol reversed="" type="1" start="4" >
+            <li>Elemento 1</li>  
+            <li>Elemento 2</li>  
+            <li>Elemento 3</li>  
+            <li>Elemento 4</li>  
+        </ol>
+
+        <br/>
+        <h1>Enlaces</h1>
+        <a href="http://google.com">Nombre del enlace</a>
+        <br/>
+        <a href="otraPagina.html">Ir a la otra pagina</a>
+        <br/>
+        <a href="#miancla">Ir a una ancla</a>
+        <br/>
+        <a href="otraPagina.html#otraAncla">Ancla en otro documento</a>
+
+        <br/>
+        <h1>Tablas</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="2"> Listado de Estudiantes</th>
+                </tr>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Carlos</td>
+                    <td>Camacho</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>1</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <br/>
+        <h1>Imagenes</h1>
+        <!--Ruta relativa-->
+        <img src="img/imagen1.jpeg" alt="descripcion de la imagen"/>
+        <!--Ruta Absoluta-->
+        <img src="/Html5Demo/img/imagen1.jpeg" alt="descripcion de la imagen"/>
+        <img src="http://ruta_externa" alt="descripcion de la imagen"/>
+        <br/>
+        <br/>
+        <br/>
+    </body>
+</html>
