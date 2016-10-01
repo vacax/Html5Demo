@@ -26,7 +26,8 @@ a{
 
 .imagenRelativo{
     position: relative;
-    top: 100px;    
+    top: 100px;
+    left: 50px;
 }
 
 .imagenAbsoluto{
@@ -57,3 +58,25 @@ a{
  
 .derecha   { float: right; }
 .izquierda { float: left;  }
+
+#contenedor{
+    border-color: brown;
+    border-style: solid;
+    height: 500px;
+    
+}
+
+#menu{
+    border-color: chartreuse;
+    border-style: dashed;
+    width: 29%;
+    height: 100%;
+    float: left;
+}
+
+#principal{
+    border-color: darkslategray;
+    border-style: dashed;
+    width: 69%;   
+    float: right;
+}
