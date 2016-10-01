@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ejemplo de caja CSS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/posicionamiento.css" type="text/css" rel="stylesheet" media="screen"/>
+    </head>
+    <body>
+        <h1>Tipo de elementos</h1>
+        <p>
+            Elementos en bloque, ocupa todo el ancho.
+        </p>
+        <a>Un Elemento en linea, ocupa el espacio necesario. </a>
+        <p>
+            Vean el <a>enlance</a>, dentro del parrafo... 
+        </p>
+        <p>
+            Algunos elementos de linea: a, abbr, acronym, b, basefont, bdo, big, br, cite, code, dfn, em, font, i, 
+            img, input, kbd, label, q, s, samp, select, small, span, strike, strong, sub, sup, textarea, tt, u, var.
+        </p>
+
+        <p>
+            Algunos elementos de bloque ddress, blockquote, center, dir, div, dl, fieldset, form, h1, h2, h3, h4, h5, h6, hr, isindex,
+            menu, noframes, noscript, ol, p, pre, table, ul, dd, dt, frameset, li, 
+            tbody, td, tfoot, th, thead, tr.
+        </p>
+
+        <h1>Posicionamiento</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Tipo de Posición
+                    </th>
+                    <th>
+                        Descripcion  
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        static 
+                    </td>
+                    <td>
+                        corresponde al posicionamiento normal o estático. Si se utiliza este valor, se ignoran los valores de las propiedades top, right, bottom y left que se verán a continuación. 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        relative 
+                    </td>
+                    <td>
+                        corresponde al posicionamiento relativo. El desplazamiento de la caja se controla con las propiedades top, right, bottom y left.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        absolute 
+                    </td>
+                    <td>
+                        corresponde al posicionamiento absoluto. El desplazamiento de la caja también se controla con las propiedades top, right, bottom y left, pero su interpretación es mucho más compleja, ya que el origen de coordenadas del desplazamiento depende del posicionamiento de su elemento contenedor.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        fixed 
+                    </td>
+                    <td>
+                        corresponde al posicionamiento fijo. El desplazamiento se establece de la misma forma que en el posicionamiento absoluto, pero en este caso el elemento permanece inamovible en la pantalla.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        Para mover una caja, es necesario utilizar las propiedades top, right, bottom, left indicando un valor.
+
+        <h2>Relativo</h2>
+        <div class="caja">
+            <img class="imagenRelativo" src="img/logopucmm.png" alt="logo"/>
+            <img src="img/logopucmm.png" alt="logo"/>
+            <img src="img/logopucmm.png" alt="logo"/>
+        </div>
+
+        <h2>Absoluto</h2>
+        <div class="caja">
+            <!--<img class="imagenAbsoluto" src="img/logopucmm.png" alt="logo" />-->
+            <img src="img/logopucmm.png" alt="logo" />
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus 
+                ullamcorper velit eu ipsum. Ut pellentesque, est in volutpat cursus, risus 
+                mi viverra augue, at pulvinar turpis leo sed orci. Donec ipsum. Curabitur 
+                felis dui, ultrices ut, sollicitudin vel, rutrum at, tellus.</p>
+        </div>
+
+        <h2>Fijo</h2>
+        <div class="caja">            
+            <!--<img class="imagenFijo" src="img/logopucmm.png" alt="logo" />-->
+            <img src="img/logopucmm.png" alt="logo" />
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus 
+                ullamcorper velit eu ipsum. Ut pellentesque, est in volutpat cursus, risus 
+                mi viverra augue, at pulvinar turpis leo sed orci. Donec ipsum. Curabitur 
+                felis dui, ultrices ut, sollicitudin vel, rutrum at, tellus.</p>
+        </div>
+
+        <h2>
+            Flotante.
+        </h2>
+        <div id="paginacion">
+            <span class="izquierda">&laquo; Anterior</span>
+            <span class="derecha">Siguiente &raquo;</span>
+        </div>
+
+    </body>
+</html>

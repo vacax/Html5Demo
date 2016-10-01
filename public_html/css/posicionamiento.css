@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/09/2016, 11:37:38 PM
+    Author     : vacax
+*/
+
+p{
+    border-style: solid;
+    border-color: black;
+}
+
+a{
+    border-style: solid;
+    border-color: blue;
+}
+
+.caja{
+    border-color: background;
+    border-style: solid;
+    height: 400px;
+}
+
+.imagenRelativo{
+    position: relative;
+    top: 100px;    
+}
+
+.imagenAbsoluto{
+    position: absolute;
+    top:  50px; 
+    left: 50px;
+}
+
+.imagenFijo{
+    position: fixed;
+    top:  50px; 
+    left: 50px;
+}
+
+.cajaDiv{
+    width: 20%;
+    height: 200px;
+    border-color: red;
+    border-style: dashed;    
+}
+
+#paginacion {
+  border: 1px solid #CCC;
+  background-color: #E0E0E0;
+  padding: .5em;
+  overflow: hidden;
+}
+ 
+.derecha   { float: right; }
+.izquierda { float: left;  }
